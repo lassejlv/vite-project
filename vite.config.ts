@@ -39,6 +39,7 @@ pages.forEach((page) => {
 
 export default defineConfig({
   root: "src",
+  publicDir: "../public",
   server: { port: 6969 },
   build: {
     outDir: "../dist",
