@@ -9,11 +9,13 @@ It also comes with setup `prettier-tailwind-plugin` for better sorting of tailwi
 
 It automatically setup a `multi-page` project, so you don't have to worry about setting up multiple pages. You can create a new page by running `bun new <page-name>`. This will create a new page in `src/<page_name>` with all the necessary files.
 
-## Usage
+## Seprate Components
 
-```bash
-bun install
-```
+This template uses a plugin called `vite-include-html-plugin` wich will scan all your html files for a `<include src="path/to/file.html"></include>` tag and replace it with the content of the file. This way you can have seprate components in seprate files. Make sure you have ending tags for the include tag, otherwise it will not work.
+
+````html
+## Usage ```bash bun install
+````
 
 ```bash
 bun dev
