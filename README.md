@@ -15,7 +15,7 @@ This template uses a plugin called `vite-include-html-plugin` wich will scan all
 
 ## Usage
 ```
-bash bun install
+bun install
 ````
 
 ```bash
