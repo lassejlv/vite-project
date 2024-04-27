@@ -13,8 +13,9 @@ It automatically setup a `multi-page` project, so you don't have to worry about 
 
 This template uses a plugin called `vite-include-html-plugin` wich will scan all your html files for a `<include src="path/to/file.html"></include>` tag and replace it with the content of the file. This way you can have seprate components in seprate files. Make sure you have ending tags for the include tag, otherwise it will not work.
 
-````html
-## Usage ```bash bun install
+## Usage
+```
+bash bun install
 ````
 
 ```bash
